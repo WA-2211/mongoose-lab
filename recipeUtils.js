@@ -11,7 +11,7 @@ async function createRecipe(newRecipe){
         instructions: 'bake at 180C',
         prepTime: 120,
         difficulty: 'Medium'
-    }, {timestamps: true})
+    })
 
     }catch(err){
     console.log('Connection failed.', err)
